@@ -8,9 +8,9 @@ import torch
 from torch import nn
 import math
 
-from configs.paths_config import model_paths
-from models.encoders import psp_encoders
-from models.stylegan2.model import Generator
+from SAM.configs.paths_config import model_paths
+from SAM.models.encoders import psp_encoders
+from SAM.models.stylegan2.model import Generator
 
 
 class pSp(nn.Module):
